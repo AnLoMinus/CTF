@@ -2,15 +2,9 @@
 - (CTF) frameworks, libraries, resources, softwares and tutorials. 
 - This list aims to help starters as well as seasoned CTF players to find everything related to CTFs at one place.
 
-### Contributing
-
-Please take a quick look at the [contribution guidelines](https://github.com/apsdehal/ctf-tools/blob/master/CONTRIBUTING.md) first.
-
-#### _If you know a tool that isn't present here, feel free to open a pull request._
-
 ### Why?
-
-It takes time to build up collection of tools used in CTF and remember them all. This repo helps to keep all these scattered tools at one place.
+- It takes time to build up collection of tools used in CTF and remember them all. 
+- This repo helps to keep all these scattered tools at one place.
 
 ### Contents
 
