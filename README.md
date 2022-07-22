@@ -9,31 +9,31 @@
 ### Contents
 
 - [Awesome CTF](#awesome-ctf)
-  - [Create](#create)
-    - [Forensics](#forensics)
-    - [Platforms](#platforms)
-    - [Steganography](#steganography)
-    - [Web](#web)
-  - [Solve](#solve)
-    - [Attacks](#attacks)
-    - [Bruteforcers](#bruteforcers)
-    - [Cryptography](#crypto)
-    - [Exploits](#exploits)
-    - [Forensics](#forensics-1)
-    - [Networking](#networking)
-    - [Reversing](#reversing)
-    - [Services](#services)
-    - [Steganography](#steganography-1)
-    - [Web](#web-1)
+  - [Create](#create) | *Tools used for creating CTF challenges*
+    - [Forensics](#forensics) | *Tools used for creating Forensics challenges*
+    - [Platforms](#platforms) | *Projects that can be used to host a CTF*
+    - [Steganography](#steganography) | *Tools used to create stego challenges*
+    - [Web](#web) | *Tools used for creating Web challenges*
+  - [Solve](#solve) | *Tools used for solving CTF challenges*
+    - [Attacks](#attacks) | *Tools used for performing various kinds of attacks*
+    - [Bruteforcers](#bruteforcers) | *Tools used for various kind of bruteforcing (passwords etc.)*
+    - [Cryptography](#crypto) | *Tools used for solving Crypto challenges*
+    - [Exploits](#exploits) | *Tools used for solving Exploits challenges*
+    - [Forensics](#forensics-1) | *Tools used for solving Forensics challenges*
+    - [Networking](#networking) | *Tools used for solving Networking challenges*
+    - [Reversing](#reversing) | *Tools used for solving Reversing challenges*
+    - [Services](#services) | *Various kind of useful services available around the internet*
+    - [Steganography](#steganography-1) | *Tools used for solving Steganography challenges*
+    - [Web](#web-1) | *Tools used for solving Web challenges*
 
-- [Resources](#resources)
-  - [Operating Systems](#operating-systems)
-  - [Starter Packs](#starter-packs)
-  - [Tutorials](#tutorials)
-  - [Wargames](#wargames)
-  - [Websites](#websites)
-  - [Wikis](#wikis)
-  - [Writeups Collections](#writeups-collections)
+- [Resources](#resources) | *Where to discover about CTF*
+  - [Operating Systems](#operating-systems) | *Penetration testing and security lab Operating Systems*
+  - [Starter Packs](#starter-packs) | *Collections of installer scripts, useful tools*
+  - [Tutorials](#tutorials) | *Tutorials to learn how to play CTFs*
+  - [Wargames](#wargames) | *Always online CTFs*
+  - [Websites](#websites) | *Various general websites about and on CTF*
+  - [Wikis](#wikis) | *Various Wikis available for learning about CTFs*
+  - [Writeups Collections](#writeups-collections) | *Collections of CTF write-ups*
 
 
 # Create
