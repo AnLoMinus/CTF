@@ -106,10 +106,85 @@ nc 10.10.85.120 9009
 
 What are you looking for? 
   ```
-  ask for client certificate
+  ask for client certificate COPY OUTPUT INTO NEW `client-cert` file
   ```sh
+ __          __  _                            _                   ____   _____ 
+ \ \        / / | |                          | |            /\   |  _ \ / ____|
+  \ \  /\  / /__| | ___ ___  _ __ ___   ___  | |_ ___      /  \  | |_) | |     
+   \ \/  \/ / _ \ |/ __/ _ \| '_ ` _ \ / _ \ | __/ _ \    / /\ \ |  _ <| |     
+    \  /\  /  __/ | (_| (_) | | | | | |  __/ | || (_) |  / ____ \| |_) | |____ 
+     \/  \/ \___|_|\___\___/|_| |_| |_|\___|  \__\___/  /_/    \_\____/ \_____|
+                                                                               
+                                                                               
+
+
 What are you looking for? client certificate
+Sounds like you forgot your certificate. Let's find it for you...
+
+-----BEGIN CERTIFICATE-----
+MIICoTCCAYkCAgTSMA0GCSqGSIb3DQEBCwUAMBQxEjAQBgNVBAMMCWxvY2FsaG9z
+dDAeFw0yMjA4MjcwOTMwMTFaFw0yMzA4MjcwOTMwMTFaMBgxFjAUBgNVBAMMDUJh
+cm5leSBSdWJibGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCmIMJM
+RFiUGyzVutsyzXE2Qag4hCALGhLY1Ypgl1QX2P6Ljc6SrbIC5t19ACWCY/3dxQK1
+MxIg4HfmO6KIF6D2dBbHDSckzLwUo08llAkaY74eyLzP/Kf3FxNx1f9gn7FarLpl
+sX/zaQAwLUqyc0E+d8mrSNFwoQmqD+lqrfZZ5j+1kpvzMvYnM62+t0RlngK4kGeI
+DHGmEk22bD4+xfq+1rXwPqayIMvouGCyDsvMAtG/H/JE02ZKx87rwFvoeLwPsXkb
+WNhaVxJR+n+oUSfLhbgHPlvg2ZkJe4wv+sBUDpGBb0IcSG5GoxIcEfSljMtI1+uy
+c+tyj64u2eXIkZe1AgMBAAEwDQYJKoZIhvcNAQELBQADggEBAEeEfrQDa5oO0VAa
+eE5QV335yy9SRxAzHyX10RTrOJtuO4KqI70Z+07xG4i5Z1/3QFEbgp/xIdLh7WiX
+IzFPyz3B8QgG6lur4hQMkS1y5Q3bvST7Cf5E6QDCdE8nEwIWnLz+WpScfg1vjyFa
+JBvlBPBdVRBKq4bVFY+7LB6mIdxhaAhsV3mLjERHZhtDHWKyxGvfjnUQPYu+ZKuM
+15SyOXYw8y65jmE2rvNOoSzFJVO88cSM1Upbj2kgVESf2WYeKUbsX5HX4KwgbVQ8
+WaOMALFBBrD5xViuDxsEe1ebmQ03KqL54RHecML/bozgfsSkGlvavG6xuAXnqXQq
+uIlaZqo=
+-----END CERTIFICATE-----
+
+
+What are you looking for? 
   ```
+
+- ask for private, COPY OUTPUT INTO NEW `rsa-key` file
+```sh
+ __          __  _                            _                   ____   _____ 
+ \ \        / / | |                          | |            /\   |  _ \ / ____|
+  \ \  /\  / /__| | ___ ___  _ __ ___   ___  | |_ ___      /  \  | |_) | |     
+   \ \/  \/ / _ \ |/ __/ _ \| '_ ` _ \ / _ \ | __/ _ \    / /\ \ |  _ <| |     
+    \  /\  /  __/ | (_| (_) | | | | | |  __/ | || (_) |  / ____ \| |_) | |____ 
+     \/  \/ \___|_|\___\___/|_| |_| |_|\___|  \__\___/  /_/    \_\____/ \_____|
+                                                                               
+                                                                          
+What are you looking for? private
+Sounds like you forgot your private key. Let's find it for you...
+
+
+-----BEGIN RSA PRIVATE KEY-----
+MIIEpgIBAAKCAQEApiDCTERYlBss1brbMs1xNkGoOIQgCxoS2NWKYJdUF9j+i43O
+kq2yAubdfQAlgmP93cUCtTMSIOB35juiiBeg9nQWxw0nJMy8FKNPJZQJGmO+Hsi8
+z/yn9xcTcdX/YJ+xWqy6ZbF/82kAMC1KsnNBPnfJq0jRcKEJqg/paq32WeY/tZKb
+8zL2JzOtvrdEZZ4CuJBniAxxphJNtmw+PsX6vta18D6msiDL6Lhgsg7LzALRvx/y
+RNNmSsfO68Bb6Hi8D7F5G1jYWlcSUfp/qFEny4W4Bz5b4NmZCXuML/rAVA6RgW9C
+HEhuRqMSHBH0pYzLSNfrsnPrco+uLtnlyJGXtQIDAQABAoIBAQCe0ozPGzxQBBb+
+EpFDZXPJukWYGoED/B5unOCZbbOgxPy98InAYzzfV1YDDmPN38ix/4qSL0wykEcw
+nmzJjUV+uQeZr3Jv1Sgu1t5w/7EgQKFfjuwsL9FpAe++Eif/eUy2cpIVbPf1froG
+VRanulZy4VS1Y32QHvU9V88BBWWTFWoHkVndFswLNL28I/Fg+jeopq+BpqQEKR4e
+n7sFTpe77mP5swtPX0RwNkxJNzRHcfGTO65WfnkzojEdsGJp2F1IkfsjTDQy7f7F
+VKYVebJFfyR5mHlkYiJcoYZHfTQHS/6JNPIIuP5fwn+hwdq1sBlgdCowLhJW8UM6
+9vB8NQVBAoGBANJhE3fJaXd1c0BpAiJYxeEeIAJu9HNmVZZTces3SPyYefi5LSJ1
+qg7I/TwwJmTlLF6NyPSjE0u79S1tkF9IMl91wgQ5lMxYGlDjKlR4IahbngLHHWT+
+1qdwWYfjqQ3zLaU32yAnbj5+OnNzbZgXWadOed+DtOFMQxIWzD3z31uxAoGBAMon
+IkBbpfe+ApkTEYERPPv05hNORlcrpodpU+/gmsloR2+QFk4d/0sV33bEIB5wtuDe
+cuL/21uTa/6wHVzu4CYukeluHB+49el3AOx1GDamlJsNkP2hE6XWx+laDciSISpv
+zMpWHcIhpguKv3LtbgrJT2vxEJ/GJOLgaD/rITFFAoGBAI3yWAtbx6CFi7Tq5Ti9
+gw5IoDpkGOYAJ0FdniCh1coxKyMJ9o0orQx6ynqg1lb/VjeaHPwLSAqykFQNd/sC
+IJLORpFJNL/HtkHbdIU35SXOY0fmh0vMspKZOJ96mWdDLAotLNl+IWFjFBcvy8Ny
+BdjgF1UbbaESLrL21On8MTmRAoGBAIgFFu3Y/O6aomLfSrren3slCJ5a38eNrmqU
+u46/QUdd7BssB2YelwWtvQPL6ZSx4Mujwgftgmq24kant8otTRND6Jf5p+DMcmLZ
+2PxBub4kDf/afAG8nVzMDQ19s6KOeNR2D4ThtvpF69T+Ud2B1rZZSCBoPvhSucUS
+m/LOQjJFAoGBALA0FQXrKnqqAQDChRC33HAVEPJ5g4Ck5746hgnL/LAHbR8/vOi1
+Pc8vNEZ0iD1sqO3DAyT3/PI1CwYn+lYvYuFX22VBTTMhkEWl8/81Ju7RpNnn/Wjk
+Yq+pcXM2VivL5KsLQgJIRESCEQ/3Fg/FUZ+5s1Y9px54xbGOeINjS+LQ
+-----END RSA PRIVATE KEY-----
+```
 
 
 ---
